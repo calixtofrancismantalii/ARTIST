@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+/*global container*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/*TOP-NAV-SECTION-ONE-BACKGROUND-IMAGE*/
+.header-top-nav-section-one-backgorund-image{
+    background-image: url(images/section-one-background-image.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    
+/*    height: 500px;*/
+    
+}
+
+/*TOP-NAV*/
+.top-nav-backgroundColor{
+    background-color: hsla(38, 94%, 0%, 0.85);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+}
+nav .title-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    display: block;
+}
+
+/*SECTION-ONE*/
+.section-one{
+    display: flex;
+    color: #ededed;
+    padding: 150px 0px;
+}
+.section-one > div{
+    width: 50%;
+    height: 700px;
+}
+.section-one .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-one .text > div:nth-child(odd){
+    width: 85%;
+}
+.section-one .text > div:nth-child(odd) h1{
+    font-size: 5em;
+    font-family: 'Martel', serif;
+    color: #ffa400;
+    line-height: 90px;
+    padding: 30px 0px;
+}
+.section-one .text > div:nth-child(odd) h2{
+    font-size: 1.2em;
+    font-family: 'Martel', serif;
+    
+}
+.section-one .text > div:nth-child(odd) p{
+    line-height: 25px;
+}
+.section-one #section-one-image{
+    width: 90%;
+    padding-top: 8px;
+    transition: 0.4s;
+}
+.section-one #section-one-image:hover{
+    cursor: pointer;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
