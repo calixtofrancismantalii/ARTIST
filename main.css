@@ -53,10 +53,14 @@ nav ul a{
     margin: 20px;
     display: block;
 }
+nav ul a:hover{
+    color: #ffa400;
+}
 
 /*SECTION-ONE*/
 .section-one{
     display: flex;
+    flex-wrap: wrap;
     color: #ededed;
     padding: 150px 0px;
 }
@@ -87,6 +91,19 @@ nav ul a{
 .section-one .text > div:nth-child(odd) p{
     line-height: 25px;
 }
+.section-one .text > div:nth-child(odd) button{
+    margin-top: 40px;
+    padding: 15px 35px;
+    background-color: inherit;
+    border: solid 2px white;
+    color: white;
+}
+.section-one .text > div:nth-child(odd) button:hover{
+    cursor: pointer;
+    border-color: #ffa400;
+    background-color: #ffa400;
+    transition: 0.4s;
+}
 .section-one #section-one-image{
     width: 90%;
     padding-top: 8px;
@@ -98,8 +115,79 @@ nav ul a{
 }
 
 
+/*SECTION-TWO*/
+.section-two{
+    background-color: aqua;
+}
+.section-two .column{
+    display: flex;
+}
+.section-two .column > div{
+    width: 50%;
+    border: solid 1px;
+}
+/*column-one*/
+.section-two .column .column-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-two .column .column-one .frame-container{
+    height: 620px;
+}
+.section-two .column .column-one .frame-container img{
+    padding-top: 8px;
+    transition: 0.4s;
+    box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
+}
+.section-two .column .column-one .frame-container img:hover{
+    cursor: pointer;
+    padding-top: 0px;
+}
 
+.name-description-wrapper{
+    width: 83%;
+    padding-right: 60px;
+    margin: 50px 0px;
+}
+.name-description-wrapper .art-name{
+    font-family: 'Martel', serif;
+    color: #ffa400;
+    font-size: 1.2em;
+}
+.name-description-wrapper .art-description{
+    line-height: 25px;
+    padding: 20px 0px;
+}
 
+/*column-two*/
+.section-two .column .column-two .section-title-wrapper{
+    width: 85%;
+}
+.section-two .column .column-two .section-title-wrapper .section-title{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    color: #ffa400;
+    font-size: 3.9em;
+    line-height: 60px;
+}
+.section-two .column .column-two .section-title-wrapper .section-description{
+    line-height: 25px;
+    padding: 30px 0px;
+}
+.section-two .column .column-two .section-title-wrapper button{
 
+    padding: 15px 35px;
+    background-color: inherit;
+    border: solid 2px white;
+    color: white;
+}
+.section-two .column .column-two .section-title-wrapper button:hover{
+    cursor: pointer;
+    border-color: #ffa400;
+    background-color: #ffa400;
+    transition: 0.4s;
+}
 
 
