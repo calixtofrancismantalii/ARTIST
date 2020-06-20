@@ -239,15 +239,20 @@ nav ul a:hover{
     width: 65%;
     padding: 50px;
 }
+.section-three .column .story-wrapper #text #vertical-line{
+    border-left: solid 1px black;
+    height: 85px;
+}
 .section-three .column .story-wrapper #text h2{
     font-family: 'Martel', serif;
     font-weight: normal;
     color: #ffa400;
     font-size: 2.5em;
+    padding: 10px 0px;
 }
 .section-three .column .story-wrapper #text p{
     line-height: 25px;
-    padding: 30px 0px;
+    padding-bottom: 30px;
 }
 .section-three .column .moto-wrapper{
     color: #ededed;
@@ -255,10 +260,15 @@ nav ul a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: flex-end;
     width: 30%;
+}
+.section-three .column .moto-wrapper div{
+    padding-left: 40px;
 }
 .section-three .column .moto-wrapper p{
     line-height: 25px;
     padding: 30px 0px;
 }
+
+
+/*SECTION-FOUR*/
