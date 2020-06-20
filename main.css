@@ -5,7 +5,6 @@
 }
 html{
     font-family: sans-serif;
-    font-size: 16px;
 }
 
 
@@ -22,9 +21,6 @@ html{
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    
-/*    height: 500px;*/
-    
 }
 
 /*TOP-NAV*/
@@ -223,9 +219,6 @@ nav ul a:hover{
 }
 .section-three .column{
     display: flex;
-}
-.section-three .column > div{
-    border: solid 1px black; 
 }
 .section-three .column .story-wrapper{
     width: 70%;
