@@ -74,7 +74,7 @@ nav ul a:hover{
     width: 85%;
 }
 .section-one .text > div:nth-child(odd) h1{
-    font-size: 4.8em;
+    font-size: 5em;
     font-family: 'Martel', serif;
     color: #ffa400;
     line-height: 85px;
@@ -94,6 +94,7 @@ nav ul a:hover{
     background-color: inherit;
     border: solid 2px white;
     color: white;
+    font-size: 16px;
 }
 .section-one .text > div:nth-child(odd) button:hover{
     cursor: pointer;
@@ -185,6 +186,7 @@ nav ul a:hover{
     border: solid 2px black;
     color: black;
     margin-bottom: 40px;
+    font-size: 16px;
 }
 .section-two .column .column-two .section-title-wrapper button:hover{
     cursor: pointer;
