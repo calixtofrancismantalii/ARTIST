@@ -274,8 +274,7 @@ nav ul a:hover{
 
 /*SECTION-FOUR*/
 .section-four{
-    height: 250px;
-/*    background-color: aqua;*/
+    padding: 80px 0px;
 }
 .section-four > div{
     padding: 30px 0px;
@@ -365,4 +364,58 @@ nav ul a:hover{
     color: #ffa400;
     font-size: 1.2em;
 }
+
+
+/*FOOTER*/
+.footer-background-color{
+    background-color: #111111;
+}
+footer{
+    color: #ededed;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .row-one{
+    display: flex;
+    padding: 50px 0px;
+}
+footer .row-one > div{
+    flex: 1;
+}
+footer .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .box i{
+    font-size: 30px;
+    padding: 35px;
+}
+footer .box .icon-name{
+    font-family: 'Martel', serif;
+    color: #ffa400;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+footer .box  span{
+    line-height: 25px;
+}
+footer .box .soc-med-icons{
+    display: flex;
+}
+footer .box .soc-med-icons i{
+    font-size: 13px;
+    padding: 10px 15px;
+    border: solid 2px #ededed;
+    margin: 5px;
+}
+footer .box .soc-med-icons i:hover{
+    cursor: pointer;
+    border-color: #ffa400;
+    background-color: #ffa400;
+    color: white;
+    transition: 0.4s;
+}
+
 
