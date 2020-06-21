@@ -50,6 +50,9 @@ nav ul a{
     margin: 20px;
     display: block;
 }
+nav ul a.active{
+    color: #ffa400; 
+}
 nav ul a:hover{
     color: #ffa400;
 }
