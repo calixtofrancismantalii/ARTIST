@@ -83,18 +83,30 @@ nav ul a:hover{
 .section-one .row-two > div{
     flex: 1;
     border: solid 1px black;
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.section-one .row-two .text {
-   
-/*    align-items: center;*/
+    align-items: center;
 }
 .section-one .row-two .text .text-wrapper{
     width: 85%;
-    background-color: red;
 }
+.section-one .row-two .two-frame .frame-container{
+    background-color: aqua;
+    height: 295px;
+    border: solid 1px;
+    margin: 10px 0px;
+}
+.section-one .row-two .two-frame .frame-container img{
+    padding-top: 8px;
+    transition: 0.4s;
+    box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
+}
+.section-one .row-two .two-frame .frame-container img:hover{
+    cursor: pointer;
+    padding-top: 0px;
+}
+
 .section-title{
     font-family: 'Martel', serif;
     font-weight: normal;
@@ -111,7 +123,7 @@ button{
     background-color: inherit;
     border: solid 2px black;
     color: black;
-    margin-bottom: 40px;
+    margin-top: 35px;
     font-size: 16px;
 }
 button:hover{
