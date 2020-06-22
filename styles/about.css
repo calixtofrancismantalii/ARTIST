@@ -155,6 +155,63 @@ nav ul a:hover{
 }
 
 
+/*SECTION-THREE*/
+.section-three{
+    padding: 10px 0px;
+    padding: 125px 0px;
+}
+.section-three .column{
+    display: flex;
+}
+.section-three .column .slides-wrapper{
+    width: 65%;
+}
+.section-three .column .slides-wrapper .images{
+    display: flex;
+    overflow: hidden;
+}
+.section-three .column .slides-wrapper .images img{
+    width: 259px;
+}
+
+
+
+.section-three .column .text{
+    width: 35%;
+    padding: 0px 45px;
+}
+.section-three .column .text .section-title{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    color: #ffa400;
+    font-size: 2.4em;
+    line-height: 65px;
+}
+.section-three .column .text .section-description{
+    line-height: 25px;
+}
+.section-three .column .text button{
+    padding: 15px 35px;
+    background-color: inherit;
+    border: solid 2px black;
+    color: black;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.section-three .column .text button:hover{
+    cursor: pointer;
+    border-color: #ffa400;
+    background-color: #ffa400;
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
 /*FOOTER*/
 .footer-background-color{
     background-color: #111111;
