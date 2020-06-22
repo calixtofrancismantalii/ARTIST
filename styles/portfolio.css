@@ -16,7 +16,7 @@ html{
 }
 
 
-/*TOP-NAV-SECTION-ONE-BACKGROUND-IMAGE*/
+/*TOP-NAV and SECTION-ONE-BACKGROUND-IMAGE*/
 .header-top-nav-section-one-backgorund-image{
     background-image: url(../images/portfolio-section-one-background-image.png);
     background-repeat: no-repeat;
@@ -67,8 +67,8 @@ nav ul a:hover{
 }
 .section-one > div{
     width: 100%;
-    border: solid 1px black;
 }
+/*row-one*/
 .section-one .row-one h1{
     font-size: 5em;
     font-family: 'Martel', serif;
@@ -76,25 +76,49 @@ nav ul a:hover{
     line-height: 85px;
     padding: 30px 0px;
 }
+/*row-two*/
 .section-one .row-two{
     display: flex;
-    height: 900px;
+    padding: 100px 0px;
 }
 .section-one .row-two > div{
     flex: 1;
-    border: solid 1px black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .section-one .row-two .text .text-wrapper{
-    width: 85%;
+    padding-right: 60px;
+}
+.section-one .row-two .text .text-wrapper .section-title{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    color: #ffa400;
+    font-size: 4em;
+    line-height: 65px;
+}
+.section-one .row-two .text .text-wrapper .section-description{
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.section-one .row-two .text .text-wrapper button{
+    padding: 15px 35px;
+    background-color: inherit;
+    border: solid 2px black;
+    color: black;
+    margin-top: 35px;
+    font-size: 16px;
+}
+.section-one .row-two .text .text-wrapper button:hover{
+    cursor: pointer;
+    border-color: #ffa400;
+    background-color: #ffa400;
+    color: white;
+    transition: 0.4s;
 }
 .section-one .row-two .two-frame .frame-container{
-    background-color: aqua;
     height: 295px;
-    border: solid 1px;
     margin: 10px 0px;
 }
 .section-one .row-two .two-frame .frame-container img{
@@ -106,19 +130,72 @@ nav ul a:hover{
     cursor: pointer;
     padding-top: 0px;
 }
-
-.section-title{
+.section-one .row-two .one-frame .frame-container{
+    height: 425px;
+    margin: 10px 0px;
+}
+.section-one .row-two .one-frame .frame-container img{
+    padding-top: 8px;
+    transition: 0.4s;
+    box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
+}
+.section-one .row-two .one-frame .frame-container img:hover{
+    cursor: pointer;
+    padding-top: 0px;
+}
+/*row-three*/
+.section-one .row-three{
+    display: flex;
+    padding: 100px 0px;
+}
+.section-one .row-three > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-one .row-three .two-frame .frame-container{
+    height: 295px;
+    margin: 10px 0px;
+}
+.section-one .row-three .two-frame .frame-container img{
+    padding-top: 8px;
+    transition: 0.4s;
+    box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
+}
+.section-one .row-three .two-frame .frame-container img:hover{
+    cursor: pointer;
+    padding-top: 0px;
+}
+.section-one .row-three .one-frame .frame-container{
+    height: 425px;
+    margin: 10px 0px;
+}
+.section-one .row-three .one-frame .frame-container img{
+    padding-top: 8px;
+    transition: 0.4s;
+    box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
+}
+.section-one .row-three .one-frame .frame-container img:hover{
+    cursor: pointer;
+    padding-top: 0px;
+}
+.section-one .row-three .text .text-wrapper{
+    padding-left: 60px;
+}
+.section-one .row-three .text .text-wrapper .section-title{
     font-family: 'Martel', serif;
     font-weight: normal;
     color: #ffa400;
     font-size: 4em;
     line-height: 65px;
 }
-.section-description{
+.section-one .row-three .text .text-wrapper .section-description{
     line-height: 25px;
     padding: 10px 0px;
 }
-button{
+.section-one .row-three .text .text-wrapper button{
     padding: 15px 35px;
     background-color: inherit;
     border: solid 2px black;
@@ -126,13 +203,15 @@ button{
     margin-top: 35px;
     font-size: 16px;
 }
-button:hover{
+.section-one .row-three .text .text-wrapper button:hover{
     cursor: pointer;
     border-color: #ffa400;
     background-color: #ffa400;
     color: white;
     transition: 0.4s;
 }
+
+
 
 
 /*FOOTER*/
