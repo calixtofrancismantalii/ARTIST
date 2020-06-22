@@ -172,10 +172,8 @@ nav ul a:hover{
 }
 .section-three .column .slides-wrapper .images img{
     width: 259px;
+    padding: 0px 5px;
 }
-
-
-
 .section-three .column .text{
     width: 35%;
     padding: 0px 45px;
@@ -205,11 +203,6 @@ nav ul a:hover{
     color: white;
     transition: 0.4s;
 }
-
-
-
-
-
 
 
 /*FOOTER*/
