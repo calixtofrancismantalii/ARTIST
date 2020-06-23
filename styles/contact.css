@@ -1,0 +1,201 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+/*global container*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/*TOP-NAV and SECTION-ONE-BACKGROUND-IMAGE*/
+.header-top-nav-section-one-backgorund-image{
+    background-image: url(../images/portfolio-section-one-background-image.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+/*TOP-NAV*/
+.top-nav-backgroundColor{
+    background-color: hsla(38, 94%, 0%, 0.85);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+}
+nav .title-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    display: block;
+}
+nav ul a.active{
+    color: #ffa400; 
+}
+nav ul a:hover{
+    color: #ffa400;
+}
+
+
+/*SECTION-ONE*/
+.section-one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: black;
+    padding: 150px 30px;
+}
+.section-one > div{
+    width: 100%;
+}
+/*row-one*/
+.section-one .row-one h1{
+    font-size: 5em;
+    font-family: 'Martel', serif;
+    color: #ffa400;
+    line-height: 85px;
+    padding: 30px 0px;
+}
+/*row-two*/
+.section-one .row-two{
+    display: flex;
+    padding: 100px 0px;
+    
+    height: 900px;
+}
+.section-one .row-two > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*map*/
+.section-one .map-wrapper #googleMap{
+    height: 65%;
+    width: 90%;
+    box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.32);
+/*    background-color: gray;*/
+}
+
+
+
+.section-one .row-two .text .text-wrapper{
+    padding-left: 39px;
+}
+.section-one .row-two .text .text-wrapper .section-title{
+    font-family: 'Martel', serif;
+    font-weight: normal;
+    color: #ffa400;
+    font-size: 4em;
+    line-height: 65px;
+}
+.section-one .row-two .text .text-wrapper .section-description{
+    line-height: 25px;
+    padding: 10px 0px;
+}
+.section-one .row-two .text .text-wrapper .contacts-column{
+    display: flex;
+}
+.section-one .row-two .text .text-wrapper .contacts-column > div{
+    padding-right: 30px;
+}
+.section-one .row-two .text .text-wrapper .contacts-column .section-description > div{
+    padding: 10px 0px;
+}
+.section-one .row-two .text .text-wrapper .contacts-column .section-description > div:hover{
+    color: #ffa400;
+    cursor: pointer;
+}
+.section-one .row-two .text .text-wrapper .contacts-column .section-description > div i{
+    color: #ffa400;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.section-one .row-two .text .text-wrapper .contacts-column .section-description .soc-med-icons i{
+    font-size: 13px;
+    padding: 10px 15px;
+    border: solid 2px black;
+    margin: 5px;
+    color: black;
+}
+.section-one .row-two .text .text-wrapper .contacts-column .section-description .soc-med-icons i:hover{
+    cursor: pointer;
+    border-color: #ffa400;
+    background-color: #ffa400;
+    color: white;
+    transition: 0.4s;
+}
+
+/*FOOTER*/
+.footer-background-color{
+    background-color: #111111;
+}
+footer{
+    color: #ededed;
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .row-one{
+    display: flex;
+    padding: 50px 0px;
+}
+footer .row-one > div{
+    flex: 1;
+}
+footer .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .box i{
+    font-size: 30px;
+    padding: 35px;
+}
+footer .box .icon-name{
+    font-family: 'Martel', serif;
+    color: #ffa400;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+footer .box  span{
+    line-height: 25px;
+}
+footer .box .soc-med-icons{
+    display: flex;
+}
+footer .box .soc-med-icons i{
+    font-size: 13px;
+    padding: 10px 15px;
+    border: solid 2px #ededed;
+    margin: 5px;
+}
+footer .box .soc-med-icons i:hover{
+    cursor: pointer;
+    border-color: #ffa400;
+    background-color: #ffa400;
+    color: white;
+    transition: 0.4s;
+}
