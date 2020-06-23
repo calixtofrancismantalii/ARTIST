@@ -427,7 +427,7 @@ footer .box .soc-med-icons i:hover{
     .name-description-wrapper{
         width: 83%;
         padding-right: 0px;
-        margin: 50px 0px;
+        margin-top: 35px;
     }
     .section-title{
         font-size: 1.8em!important;
@@ -461,6 +461,7 @@ footer .box .soc-med-icons i:hover{
         width: 100%;
         padding-top: 8px;
         transition: 0.4s;
+        
     }
     
     
@@ -478,6 +479,12 @@ footer .box .soc-med-icons i:hover{
         width: 100%;
         text-align: center;
     }
+    .section-two .column .column-one .frame-container{
+        height: 0%;
+    }
+    .section-two .column .column-two .frame-container{
+        height: 0%;
+    }
     .section-two .column .column-one .frame-container img{
         width: 85%;
         padding-top: 8px;
@@ -492,7 +499,7 @@ footer .box .soc-med-icons i:hover{
     }
 
     
-    
+    /*SECTION-THREE*/
     .section-three{
         padding: 30px 0px;
     }
