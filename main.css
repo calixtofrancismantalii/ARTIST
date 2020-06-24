@@ -434,6 +434,17 @@ footer .box .soc-med-icons i:hover{
     }
     
     
+    
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+    header nav .title-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+    }
     /*SECTION-ONE*/
     .section-one{
         display: flex;
@@ -501,7 +512,8 @@ footer .box .soc-med-icons i:hover{
     
     /*SECTION-THREE*/
     .section-three{
-        padding: 30px 0px;
+        padding: 0px 0px;
+        padding-bottom: 50px;
     }
     .section-three .column > div{
         width: 100%;
@@ -525,6 +537,7 @@ footer .box .soc-med-icons i:hover{
     .section-three .column .moto-wrapper{
         width: 100%;
         text-align: center;
+        padding: 30px;
     }
     .section-three .column .moto-wrapper div{
         padding-left: 0px;
