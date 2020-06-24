@@ -447,6 +447,8 @@ footer hr{
         flex-direction: row;
         justify-content: space-between;
         padding: 10px 10px;
+        
+        position: relative;
     }
     nav .title-logo button{
         background-color: #ededed;
@@ -462,6 +464,11 @@ footer hr{
         height: 0px;
         overflow: hidden;
         transition: 0.4s;
+        
+        background-color: black;
+        margin-top: 75px;
+        width: 95%;
+        position: absolute;
     }
     nav ul li{
         border-top: solid 1px #1f1f1f;
