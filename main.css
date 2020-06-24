@@ -284,15 +284,12 @@ nav ul a:hover{
 /*row-one*/
 .section-four .row-one{
     display: flex;
-    align-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 .section-four .row-one > div{
     width: 50%;
 }
 .section-four .row-one .section-title-wrapper{
-/*    width: 75%;*/
     text-align: right;
     padding: 30px;
 }
@@ -433,8 +430,6 @@ footer .box .soc-med-icons i:hover{
         font-size: 1.8em!important;
     }
     
-    
-    
     header nav{
         display: flex;
         flex-direction: column;
@@ -445,6 +440,8 @@ footer .box .soc-med-icons i:hover{
         align-items: center;
         padding: 20px 0px;
     }
+    
+    
     /*SECTION-ONE*/
     .section-one{
         display: flex;
@@ -474,7 +471,6 @@ footer .box .soc-med-icons i:hover{
         transition: 0.4s;
         
     }
-    
     
     
     /*SECTION-TWO*/
@@ -515,6 +511,10 @@ footer .box .soc-med-icons i:hover{
         padding: 0px 0px;
         padding-bottom: 50px;
     }
+    .section-three .column{
+        display: flex;
+        flex-direction: column;
+    }
     .section-three .column > div{
         width: 100%;
     }
@@ -544,21 +544,6 @@ footer .box .soc-med-icons i:hover{
     }
     
     
-    
-    
-    
-    
-    
-    
-    
-
-    .section-three .column{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    
     /*SECTION-FOUR*/
     .section-four .row-one{
         display: flex;
@@ -569,25 +554,26 @@ footer .box .soc-med-icons i:hover{
     }
     .section-four .row-one > div{
         width: 100%;
+        text-align: center;
     }
     .section-four .row-one .section-title-wrapper{
         width: 100%;
         text-align: center!important;
-        padding: 0px;
-        background-color: aqua;
+    }
+    .section-four .row-one .row-one-image-wrapper{
+        width: 100%;
+        padding: 30px;
+    }
+    .section-four .row-one .row-one-image-wrapper .frame-container{
+        height: 0%;
     }
     .section-four .row-one .row-one-image-wrapper img{
-        width: 85%;
+        width: 100%;
         padding-top: 8px;
         transition: 0.4s;
         box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
     }
-    
-    .section-four .row-one .section-title-wrapper{
-        width: 60%;
-        text-align: right;
-        padding: 0px;
-    }
+
     .section-four .row-two{
         display: flex;
         flex-direction: column;
