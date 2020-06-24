@@ -545,6 +545,10 @@ footer .box .soc-med-icons i:hover{
     
     
     /*SECTION-FOUR*/
+    .section-four{
+        padding: 0px 0px;
+        padding-bottom: 50px;
+    }
     .section-four .row-one{
         display: flex;
         flex-direction: column;
@@ -573,13 +577,15 @@ footer .box .soc-med-icons i:hover{
         transition: 0.4s;
         box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
     }
-
     .section-four .row-two{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
     }
+    
+    
+    /*FOOTER*/
     footer .row-one{
         display: flex;
         flex-direction: column;
