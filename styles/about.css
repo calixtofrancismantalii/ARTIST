@@ -134,7 +134,7 @@ nav ul a:hover{
     background-size: cover;
 }
 .section-two{
-    padding: 150px 0px; 
+    padding: 150px 30px; 
 }
 .section-two .text{
     color: #ededed;
@@ -374,16 +374,20 @@ footer hr{
     /*SECTION-TRHEE*/
     .section-three{
         padding: 100px 0px;
+        background-color: rebeccapurple;
     }
     .section-three .column{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .section-three .column .slides-wrapper{
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        background-color: royalblue;
     }
     .section-three .column .slides-wrapper .images{
         display: flex;
