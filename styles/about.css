@@ -374,7 +374,6 @@ footer hr{
     /*SECTION-TRHEE*/
     .section-three{
         padding: 100px 0px;
-        background-color: rebeccapurple;
     }
     .section-three .column{
         display: flex;
@@ -387,9 +386,7 @@ footer hr{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-color: royalblue;
         height: 160px;
-/*        height: 50%;*/
     }
     .section-three .column .slides-wrapper .images{
         display: flex;
