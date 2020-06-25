@@ -395,7 +395,7 @@ footer hr{
         overflow: hidden;
     }
     .section-three .column .slides-wrapper .images img{
-        width: 200px;
+/*        width: 200px;*/
         padding: 0px 5px;
     }
     .section-three .column .text{
