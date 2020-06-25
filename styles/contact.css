@@ -95,7 +95,6 @@ nav ul a:hover{
 .section-one .map-wrapper{
     width: 45%;
     height: 500px;
-    background-color: aqua;
 }
 .section-one .map-wrapper #googleMap{
     height: 100%;
