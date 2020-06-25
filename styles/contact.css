@@ -276,6 +276,9 @@ footer hr{
         flex-direction: column;
         padding: 0px;
     }
+    .section-one .row-two .text{
+        padding: 50px 0px;
+    }
     .section-one .row-two .text .text-wrapper{
         text-align: center;
         padding: 0px;
