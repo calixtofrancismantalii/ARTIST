@@ -40,7 +40,10 @@ nav .title-logo{
     flex-direction: column;
     justify-content: center;
 }
-nav ul{
+nav .title-logo button{
+    display: none;
+}
+nav #ul{
     list-style-type: none;
     display: flex;
 }
@@ -83,11 +86,7 @@ nav ul a:hover{
     padding: 100px 0px;
 }
 .section-one .row-two > div{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 .section-one .row-two .text .text-wrapper{
     padding-right: 60px;
@@ -255,4 +254,79 @@ footer .box .soc-med-icons i:hover{
     background-color: #ffa400;
     color: white;
     transition: 0.4s;
+}
+
+
+/*MOBILE SCREEN-SIZE*/
+@media(max-width: 481px){
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .title-logo{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+        position: relative;
+    }
+    nav .title-logo div > button{
+        background-color: #ededed;
+        border: none;
+        font-size: 20px;
+        display: block;
+        padding: 12px 14px;
+        border-radius: 2px;
+        outline: none;
+    }
+    nav #ul{
+        display: flex;
+        flex-direction: column;
+        height: 0px;
+        overflow: hidden;
+        transition: 0.4s;
+        background-color: black;
+        margin-top: 85px;
+        width: 95%;
+        position: absolute;
+    }
+    nav ul li{
+        border-top: solid 1px #1f1f1f;
+    }
+    nav ul a{
+        margin: 0px;
+        padding: 20px;
+    }
+    
+    
+     /*SECTION-ONE*/
+    .section-one{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    /*row-one*/
+    .section-one .row-one h1{
+        font-size: 2em;
+        font-family: 'Martel', serif;
+        color: #ffa400;
+        line-height: 85px;
+        padding: 5px 0px;
+        text-align: center;
+    }
+    /*row-two*/
+    .section-one .row-two{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0px;
+    }
+    .section-one .row-two > div{
+        width: 100%;
+    }
+   
+    
 }
