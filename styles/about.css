@@ -254,6 +254,9 @@ footer .box .soc-med-icons i:hover{
     color: white;
     transition: 0.4s;
 }
+footer hr{
+    display: none;
+}
 
 
 /*MOBILE SCREEN-SIZE*/
@@ -301,7 +304,7 @@ footer .box .soc-med-icons i:hover{
     }
     
     
-     /*SECTION-ONE*/
+    /*SECTION-ONE*/
     .section-one{
         display: flex;
         flex-direction: column;
@@ -383,6 +386,7 @@ footer .box .soc-med-icons i:hover{
         justify-content: center;
     }
     .section-three .column .slides-wrapper .images{
+        display: flex;
         width: 95%;
         overflow: hidden;
     }
