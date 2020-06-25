@@ -444,12 +444,14 @@ footer hr{
         display: flex;
         flex-direction: column;
 /*        align-content: center;*/
-        align-items: center;
+/*        align-items: center;*/
     }
     nav .title-logo{
+/*
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+*/
         padding: 10px 10px;
         
         position: relative;
