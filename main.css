@@ -443,25 +443,23 @@ footer hr{
     nav{
         display: flex;
         flex-direction: column;
-/*        align-content: center;*/
-/*        align-items: center;*/
     }
     nav .title-logo{
-/*
+        
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-*/
+        align-items: center;
         padding: 10px 10px;
-        
         position: relative;
     }
-    nav .title-logo button{
+    nav .title-logo div > button{
         background-color: #ededed;
         border: none;
         font-size: 20px;
         display: block;
-        padding: 0px 13px;
+        padding: 12px 14px;
+        border-radius: 2px;
         outline: none;
     }
     nav #ul{
@@ -471,7 +469,7 @@ footer hr{
         overflow: hidden;
         transition: 0.4s;
         background-color: black;
-        margin-top: 75px;
+        margin-top: 85px;
         width: 95%;
         position: absolute;
     }
