@@ -388,7 +388,8 @@ footer hr{
         flex-direction: row;
         justify-content: center;
         background-color: royalblue;
-        height: 50px
+/*        height: 160px;*/
+        height: 50%;
     }
     .section-three .column .slides-wrapper .images{
         display: flex;
