@@ -582,6 +582,7 @@ footer hr{
         padding: 0px 0px;
         padding-bottom: 50px;
     }
+    /*row-one*/
     .section-four .row-one{
         display: flex;
         flex-direction: column;
@@ -610,6 +611,7 @@ footer hr{
         transition: 0.4s;
         box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
     }
+    /*row-two*/
     .section-four .row-two{
         display: flex;
         flex-direction: column;
