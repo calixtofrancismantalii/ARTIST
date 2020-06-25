@@ -309,6 +309,10 @@ footer .box .soc-med-icons i:hover{
     nav ul li{
         border-top: solid 1px #1f1f1f;
     }
+    nav ul a{
+        margin: 0px;
+        padding: 20px;
+    }
     
     
     /*SECTION-ONE*/
