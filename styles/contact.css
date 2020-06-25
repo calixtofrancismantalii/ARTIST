@@ -83,25 +83,30 @@ nav ul a:hover{
 /*row-two*/
 .section-one .row-two{
     display: flex;
-    padding: 100px 0px;
-    
-    height: 900px;
+    padding-top: 90px;
 }
 .section-one .row-two > div{
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 /*map*/
+.section-one .map-wrapper{
+    width: 45%;
+    height: 500px;
+    background-color: aqua;
+}
 .section-one .map-wrapper #googleMap{
-    height: 65%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.32);
 }
+.section-one .row-two .text{
+    width: 55%;
+}
 .section-one .row-two .text .text-wrapper{
-    padding-left: 39px;
+    padding-left: 55px;
 }
 .section-one .row-two .text .text-wrapper .section-title{
     font-family: 'Martel', serif;
@@ -248,7 +253,7 @@ footer hr{
         padding: 20px;
     }
     
-    
+
     /*SECTION-ONE*/
     .section-one{
         display: flex;
@@ -266,6 +271,9 @@ footer hr{
         text-align: center;
     }
     /*row-two*/
+    .section-one .map-wrapper{
+        width: 100%;
+    }
     .section-one .map-wrapper #googleMap{
         height: 100%;
         width: 100%;
@@ -277,6 +285,7 @@ footer hr{
         padding: 0px;
     }
     .section-one .row-two .text{
+        width: 100%;
         padding: 50px 0px;
     }
     .section-one .row-two .text .text-wrapper{
