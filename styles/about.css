@@ -390,11 +390,9 @@ footer hr{
         margin: 10px;
         height: 200px;
     }
-    .section-three .column .slides-wrapper > div .images{
-        height: auto;
-    }
     .section-three .column .slides-wrapper .images img{
         width: 50%;
+         height: auto;
     }
     
     .section-three .column .text{
