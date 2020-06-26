@@ -169,8 +169,8 @@ nav ul a:hover{
     overflow: hidden;
 }
 .section-three .column .slides-wrapper .images img{
-    width: 259px;
-    padding: 0px 5px;
+    width: 33%;
+    padding: 0px 8px;
 }
 .section-three .column .text{
     width: 35%;
@@ -377,7 +377,7 @@ footer hr{
     }
     .section-three .column{
         display: flex;
-/*        flex-direction: column;*/
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -388,11 +388,11 @@ footer hr{
     .section-three .column .slides-wrapper > div{
         background-color: darkolivegreen;
         margin: 10px;
-        height: 200px;
+/*        height: 200px;*/
     }
     .section-three .column .slides-wrapper .images img{
         width: 50%;
-         height: auto;
+        height: 100%!important;
     }
     
     .section-three .column .text{
