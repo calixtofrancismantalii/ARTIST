@@ -382,19 +382,15 @@ footer hr{
         align-items: center;
     }
     .section-three .column .slides-wrapper{
-        background-color: aqua;
         width: 100%;
     }
     .section-three .column .slides-wrapper > div{
-        background-color: darkolivegreen;
         margin: 10px;
-/*        height: 200px;*/
     }
     .section-three .column .slides-wrapper .images img{
         width: 50%;
         height: 100%!important;
     }
-    
     .section-three .column .text{
         width: 100%;
         text-align: center;
