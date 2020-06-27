@@ -482,18 +482,18 @@ footer hr{
     /*SECTION-ONE*/
     .section-one{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse!important;
         flex-wrap: wrap;
         color: #ededed;
         padding: 50px 30px;
     }
     .section-one > div{
-        width: 100%;
+        width: 100%!important;
         height: 450px;
-        text-align: center;
     }
     .section-one .text > div:nth-child(odd){
         width: 100%;
+        text-align: center!important;
     }
     .section-one .text > div:nth-child(odd) h1{
         font-size: 2em;
@@ -517,17 +517,20 @@ footer hr{
     }
     .section-two .column{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse!important;
     }
     .section-two .column > div{
-        width: 100%;
+        width: 100%!important;
         text-align: center;
     }
     .section-two .column .column-one .frame-container{
-        height: 0%;
+        height: 0%!important;
     }
     .section-two .column .column-two .frame-container{
-        height: 0%;
+        height: 0%!important;
+    }
+    .section-two .column .column-two .section-title-wrapper{
+        text-align: center!important
     }
     .section-two .column .column-one .frame-container img{
         width: 85%;
@@ -545,35 +548,35 @@ footer hr{
     
     /*SECTION-THREE*/
     .section-three{
-        padding: 0px 0px;
-        padding-bottom: 50px;
+        padding: 0px 0px!important;
+        padding-bottom: 50px!important;
     }
     .section-three .column{
         display: flex;
-        flex-direction: column;
+        flex-direction: column!important;
     }
     .section-three .column > div{
-        width: 100%;
+        width: 100%!important;
     }
-    .section-three .column #artist-image{
+    .section-three .column .story-wrapper #artist-image{
         width: 100%!important;
         height: 500px;
     }
     .section-three .column .story-wrapper{
         width: 100%!important;
         display: flex;
-        flex-direction: column;
+        flex-direction: column!important;
         text-align: center;
     }
     .section-three .column .story-wrapper #text #vertical-line{
         display: none;
     }
     .section-three .column .story-wrapper #text{
-        width: 100%;
+        width: 100%!important;
     }
     .section-three .column .moto-wrapper{
-        width: 100%;
-        text-align: center;
+        width: 100%!important;
+        text-align: center!important;
         padding: 30px;
     }
     .section-three .column .moto-wrapper div{
@@ -634,6 +637,210 @@ footer hr{
         display: block;
         background-color: #141414;
     }
+}
+/*TABLET SCREEN-SIZE*/
+@media(max-width: 768px){
+    
+    /*universal style for sections name and description*/
+    .name-description-wrapper{
+        width: 83%;
+        padding-right: 0px;
+        margin-top: 35px;
+    }
+    .section-title{
+        font-size: 1.8em!important;
+    }
+  
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .title-logo{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+        position: relative;
+    }
+    nav .title-logo div > button{
+        background-color: #ededed;
+        border: none;
+        font-size: 20px;
+        display: block;
+        padding: 12px 14px;
+        border-radius: 2px;
+        outline: none;
+    }
+    nav #ul{
+        display: flex;
+        flex-direction: column;
+        height: 0px;
+        overflow: hidden;
+        transition: 0.4s;
+        background-color: black;
+        margin-top: 85px;
+        width: 95%;
+        position: absolute;
+    }
+    nav ul li{
+        border-top: solid 1px #1f1f1f;
+    }
+    nav ul a{
+        margin: 0px;
+        padding: 20px;
+    }
+    
+    
+    /*SECTION-ONE*/
+    .section-one{
+        display: flex;
+        flex-direction: row;
+    }
+    .section-one > div{
+        width: 50%;
+        height: 450px;
+        text-align: center;
+    }
+    .section-one .text > div:nth-child(odd){
+        text-align: left;
+    }
+    .section-one .text > div:nth-child(odd) h1{
+        font-size: 2em;
+        font-family: 'Martel', serif;
+        color: #ffa400;
+        line-height: 85px;
+        padding: 5px 0px;
+    }
+    
+    
+    /*SECTION-TWO*/
+    .section-two{
+        padding-top: 55px;
+        padding-bottom: 35px;
+    }
+    .section-two .column{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-two .column > div{
+        width: 50%;
+        text-align: center;
+    }
+    .section-two .column .column-one .frame-container{
+        height: 415px;
+    }
+    .section-two .column .column-two .frame-container{
+        height: 285px;
+    }
+    .section-two .column .column-two .section-title-wrapper{
+        text-align: left;
+    }
+    .section-two .column .column-one .frame-container img{
+        width: 85%;
+        padding-top: 8px;
+        transition: 0.4s;
+        box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
+    }
+    .section-two .column .column-two .frame-container img{
+        width: 85%;
+        padding-top: 8px;
+        transition: 0.4s;
+        box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
+    }
+
+    
+    /*SECTION-THREE*/
+    .section-three{
+        padding: 50px 0px;
+    }
+    .section-three .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-three .column > div{
+        width: 50%;
+    }
+    .section-three .column #artist-image{
+        width: 35%!important;
+    }
+    .section-three .column .story-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .section-three .column .story-wrapper #text{
+        width: 65%;
+    }
+    .section-three .column .moto-wrapper{
+        width: 100%!important;
+        text-align: right;
+        padding: 30px;
+    }
+    .section-three .column .moto-wrapper div{
+        padding-left: 0px;
+    }
+    
+    
+    /*SECTION-FOUR*/
+    .section-four{
+        padding: 0px 0px;
+        padding-bottom: 50px;
+    }
+    /*row-one*/
+    .section-four .row-one{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    
+    }
+    .section-four .row-one > div{
+        width: 100%;
+        text-align: center;
+    }
+    .section-four .row-one .section-title-wrapper{
+        width: 100%;
+        text-align: center!important;
+    }
+    .section-four .row-one .row-one-image-wrapper{
+        width: 100%;
+        padding: 30px;
+    }
+    .section-four .row-one .row-one-image-wrapper .frame-container{
+        height: 0%;
+    }
+    .section-four .row-one .row-one-image-wrapper img{
+        width: 100%;
+        padding-top: 8px;
+        transition: 0.4s;
+        box-shadow: -28px 26px 50px -1px rgba(0,0,0,0.1);
+    }
+    /*row-two*/
+    .section-four .row-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    
+    /*FOOTER*/
+    footer .row-one{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+    footer hr{
+        display: block;
+        background-color: #141414;
+    }
+    
 }
 
 
