@@ -523,12 +523,6 @@ footer hr{
         width: 100%!important;
         text-align: center;
     }
-    .section-two .column .column-one .frame-container{
-        height: 0%!important;
-    }
-    .section-two .column .column-two .frame-container{
-        height: 0%!important;
-    }
     .section-two .column .column-two .section-title-wrapper{
         text-align: center!important
     }
@@ -592,7 +586,7 @@ footer hr{
     /*row-one*/
     .section-four .row-one{
         display: flex;
-        flex-direction: column;
+        flex-direction: column!important;
         align-content: center;
         align-items: center;
     
@@ -610,7 +604,8 @@ footer hr{
         padding: 30px;
     }
     .section-four .row-one .row-one-image-wrapper .frame-container{
-        height: 0%;
+        height: 310px!important;
+        margin-bottom: 20px;
     }
     .section-four .row-one .row-one-image-wrapper img{
         width: 100%;
@@ -795,10 +790,8 @@ footer hr{
     /*row-one*/
     .section-four .row-one{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-content: center;
-        align-items: center;
-    
     }
     .section-four .row-one > div{
         width: 100%;
@@ -806,14 +799,15 @@ footer hr{
     }
     .section-four .row-one .section-title-wrapper{
         width: 100%;
-        text-align: center!important;
+        text-align: right;
     }
     .section-four .row-one .row-one-image-wrapper{
         width: 100%;
         padding: 30px;
     }
     .section-four .row-one .row-one-image-wrapper .frame-container{
-        height: 0%;
+        height: 285px;
+        margin-bottom: 20px;
     }
     .section-four .row-one .row-one-image-wrapper img{
         width: 100%;
