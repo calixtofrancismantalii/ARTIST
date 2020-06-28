@@ -331,10 +331,13 @@ footer hr{
     }
     .section-one .row-two .one-frame{
         height: 500px;
+        width: 100%!important;
+        margin: auto;
     }
     .section-one .row-two .text .text-wrapper{
         padding-right: 0px;
         text-align: justify;
+        padding-bottom: 0px!important;
     }
     .section-one .row-two .text .section-title{ 
         font-size: 2em!important;
@@ -377,12 +380,13 @@ footer hr{
     }
     .section-three .column{
         display: flex;
-        flex-direction: column;
+        flex-direction: column!important;
         justify-content: center;
         align-items: center;
     }
     .section-three .column .slides-wrapper{
-        width: 100%;
+        width: 100%!important;
+        padding: 0px 0px!important;
     }
     .section-three .column .slides-wrapper > div{
         margin: 10px;
@@ -392,8 +396,9 @@ footer hr{
         height: 100%!important;
     }
     .section-three .column .text{
-        width: 100%;
-        text-align: center;
+        width: 100%!important;
+        text-align: center!important;
+        padding: 0px 30px!important;
     }
     .section-three .column .text .section-title{
         font-size: 2em!important;
@@ -468,8 +473,8 @@ footer hr{
     .section-one{
         display: flex;
         flex-direction: column;
-        padding-top: 50px;
         padding-bottom: 0px;
+        padding-top: 50px;
     }
     /*row-one*/
     .section-one .row-one h1{
@@ -490,11 +495,13 @@ footer hr{
         width: 100%;
     }
     .section-one .row-two .one-frame{
-        height: 500px;
+        width: 80%;
+        margin: auto;
     }
     .section-one .row-two .text .text-wrapper{
         padding-right: 0px;
         text-align: justify;
+        padding-bottom: 60px;
     }
     .section-one .row-two .text .section-title{ 
         font-size: 2em!important;
@@ -528,6 +535,39 @@ footer hr{
     }
     .section-two .text > div{
         text-align: left;
+    }
+    
+    
+    /*SECTION-TRHEE*/
+    .section-three{
+        padding: 100px 0px;
+    }
+    .section-three .column{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-three .column .slides-wrapper{
+        width: 55%;
+        padding: 0px 20px;
+    }
+    .section-three .column .text{
+        width: 45%;
+        text-align: left;
+        padding: 0px 30px!important;
+    }
+    .section-three .column .text .section-title{
+        font-size: 2em!important;
+        font-family: 'Martel', serif;
+        color: #ffa400;
+        line-height: 85px;
+        padding: 5px 0px;
+    }
+    
+    footer hr{
+        display: block;
+        background-color: #141414;
     }
     
 }
