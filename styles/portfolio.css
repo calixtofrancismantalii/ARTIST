@@ -318,7 +318,7 @@ footer hr{
         transition: 0.4s;
         background-color: black;
         margin-top: 85px;
-        width: 95%;
+        width: 95%!important;
         position: absolute;
     }
     nav ul li{
@@ -469,7 +469,7 @@ footer hr{
         transition: 0.4s;
         background-color: black;
         margin-top: 85px;
-        width: 95%;
+        width: 97.5%;
         position: absolute;
     }
     nav ul li{
