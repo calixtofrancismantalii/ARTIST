@@ -344,7 +344,7 @@ footer hr{
         color: #ffa400;
         line-height: 85px;
         padding: 5px 0px;
-        text-align: center;
+        text-align: center!important;
     }
     /*row-two*/
     .section-one .row-two{
@@ -354,9 +354,10 @@ footer hr{
     }
     .section-one .row-two .text{
         padding-bottom: 30px;
+        text-align: center!important;
     }
     .section-one .row-two .text .text-wrapper{
-        text-align: center;
+        text-align: center!important;
         padding-right: 0px;
     }
     .section-one .row-two .text .text-wrapper .section-title{
@@ -365,7 +366,7 @@ footer hr{
         color: #ffa400;
         line-height: 85px;
         padding: 5px 0px;
-        text-align: center;
+        text-align: center!important;
     }
     .section-one .row-two #frames{
         display: flex;
@@ -394,7 +395,7 @@ footer hr{
         padding-bottom: 30px;
     }
     .section-one .row-three .text .text-wrapper{
-        text-align: center;
+        text-align: center!important;
         padding-right: 0px;
     }
     .section-one .row-three .text .text-wrapper .section-title{
@@ -403,7 +404,7 @@ footer hr{
         color: #ffa400;
         line-height: 85px;
         padding: 5px 0px;
-        text-align: center;
+        text-align: center!important;
     }
     .section-one .row-three #frames{
         display: flex;
@@ -494,7 +495,7 @@ footer hr{
         color: #ffa400;
         line-height: 85px;
         padding: 5px 0px;
-        text-align: center;
+        text-align: left;
     }
     /*row-two*/
     .section-one .row-two{
@@ -518,7 +519,7 @@ footer hr{
         
     }
     .section-one .row-two .text .text-wrapper{
-        text-align: center;
+        text-align: left;
         padding-right: 0px;
     }
     .section-one .row-two .text .text-wrapper .section-title{
@@ -527,7 +528,7 @@ footer hr{
         color: #ffa400;
         line-height: 85px;
         padding: 5px 0px;
-        text-align: center;
+        text-align: left;
     }
     .section-one .row-two .frame-container{
         width: 100%;
@@ -557,7 +558,7 @@ footer hr{
         
     }
     .section-one .row-three .text .text-wrapper{
-        text-align: center;
+        text-align: left;
         padding-right: 0px;
     }
     .section-one .row-three .text .text-wrapper .section-title{
@@ -566,7 +567,7 @@ footer hr{
         color: #ffa400;
         line-height: 85px;
         padding: 5px 0px;
-        text-align: center;
+        text-align: left;
     }
     .section-one .row-three .frame-container{
         width: 100%;
@@ -579,7 +580,6 @@ footer hr{
     /*FOOTER*/
     footer .row-one{
         display: flex;
-/*        flex-direction: column;*/
         padding: 50px 0px;
     }
     footer hr{
