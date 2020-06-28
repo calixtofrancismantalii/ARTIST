@@ -83,6 +83,7 @@ nav ul a:hover{
 /*row-two*/
 .section-one .row-two{
     display: flex;
+    align-items: center;
     padding: 100px 0px;
 }
 .section-one .row-two > div{
