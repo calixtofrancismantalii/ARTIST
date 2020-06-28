@@ -156,6 +156,7 @@ nav ul a:hover{
 /*row-three*/
 .section-one .row-three{
     display: flex;
+    flex-direction: row-reverse;
     padding: 100px 0px;
 }
 .section-one .row-three > div{
@@ -199,7 +200,7 @@ nav ul a:hover{
     padding-top: 0px;
 }
 .section-one .row-three .text .text-wrapper{
-    padding-right: 60px;
+    padding-left: 60px;
 }
 .section-one .row-three .text .text-wrapper .section-title{
     font-family: 'Martel', serif;
@@ -398,7 +399,7 @@ footer hr{
     }
     .section-one .row-three .text .text-wrapper{
         text-align: center!important;
-        padding-right: 0px;
+        padding-left: 0px!important;
     }
     .section-one .row-three .text .text-wrapper .section-title{
         font-size: 2em;
@@ -552,7 +553,7 @@ footer hr{
     }
     .section-one .row-three .text .text-wrapper{
         text-align: left;
-        padding-right: 0px;
+        padding-left: 0px;
     }
     .section-one .row-three .text .text-wrapper .section-title{
         font-size: 2em;
@@ -651,7 +652,7 @@ footer hr{
     }
     .section-one .row-three .text .text-wrapper{
         text-align: left;
-        padding-right: 0px;
+        padding-left: 0px;
     }
     .section-one .row-three .text .text-wrapper .section-title{
         font-family: 'Martel', serif;
