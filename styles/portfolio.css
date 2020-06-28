@@ -387,7 +387,7 @@ footer hr{
     /*row-three*/
     .section-one .row-three{
         display: flex;
-        flex-direction: column;
+        flex-direction: column!important;
         padding-top: 0px;
     }
     .section-one .row-three .text{
@@ -538,7 +538,7 @@ footer hr{
     /*row-three*/
     .section-one .row-three{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding-top: 0px;
     }
     .section-one .row-three .text{
