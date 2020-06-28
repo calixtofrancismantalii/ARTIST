@@ -345,6 +345,7 @@ footer hr{
         line-height: 85px;
         padding: 5px 0px;
         text-align: center!important;
+        width: 100%!important;
     }
     /*row-two*/
     .section-one .row-two{
@@ -367,6 +368,7 @@ footer hr{
         line-height: 85px;
         padding: 5px 0px;
         text-align: center!important;
+        margin-top: 0px!important;
     }
     .section-one .row-two #frames{
         display: flex;
@@ -405,6 +407,7 @@ footer hr{
         line-height: 85px;
         padding: 5px 0px;
         text-align: center!important;
+        margin-top: 0px!important;
     }
     .section-one .row-three #frames{
         display: flex;
@@ -496,6 +499,7 @@ footer hr{
         line-height: 85px;
         padding: 5px 0px;
         text-align: left;
+        width: 40%;
     }
     /*row-two*/
     .section-one .row-two{
@@ -523,6 +527,7 @@ footer hr{
         line-height: 85px;
         padding: 5px 0px;
         text-align: left;
+        margin-top: 50px;
     }
     .section-one .row-two .frame-container{
         width: 100%;
@@ -556,6 +561,7 @@ footer hr{
         line-height: 85px;
         padding: 5px 0px;
         text-align: left;
+        margin-top: 50px;
     }
     .section-one .row-three .frame-container{
         width: 100%;
@@ -593,6 +599,7 @@ footer hr{
         line-height: 85px;
         padding: 5px 0px;
         text-align: left;
+        width: 40%;
     }
     /*row-two*/
     .section-one .row-two{
@@ -614,12 +621,12 @@ footer hr{
         padding-right: 0px;
     }
     .section-one .row-two .text .text-wrapper .section-title{
-        font-size: 2em;
         font-family: 'Martel', serif;
         color: #ffa400;
         line-height: 85px;
         padding: 5px 0px;
         text-align: left;
+        margin-top: 50px;
     }
     .section-one .row-two .frame-container{
         width: 100%;
@@ -647,12 +654,12 @@ footer hr{
         padding-right: 0px;
     }
     .section-one .row-three .text .text-wrapper .section-title{
-        font-size: 2em;
         font-family: 'Martel', serif;
         color: #ffa400;
         line-height: 85px;
         padding: 5px 0px;
         text-align: left;
+        margin-top: 50px;
     }
     .section-one .row-three .frame-container{
         width: 100%;
